@@ -19,7 +19,8 @@ RUN apt-get update -qq && \
 RUN pip --no-cache-dir install \
     keras \
     gym \
-    git+https://github.com/joshuansu0897/gym-super-mario 
+    git+https://github.com/joshuansu0897/gym-super-mario \
+    gym-super-mario-bros
 
 WORKDIR /app
 
