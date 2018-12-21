@@ -1,9 +1,10 @@
 import gym
 import ppaquette_gym_super_mario
+
+# stuff
 import numpy as np
 
 env = gym.make('ppaquette/SuperMarioBros-1-1-v0')
-
 
 for _ in range(1000):
     observation = env.reset()
